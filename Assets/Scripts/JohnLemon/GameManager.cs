@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     //Contador de tiempo
     private float _timer;
     //Si el jugador salio del nivel
-    public bool IsPlayerAsExit;
+    public bool IsPlayerAtExit;
     //Si el jugador fue atrapado
     public bool IsPlayerCaught;
 
@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (IsPlayerAsExit)
+        if (IsPlayerAtExit)
         {
             Won();
         }
@@ -107,7 +107,7 @@ public class GameManager : MonoBehaviour
     {
         if (infoCollider.CompareTag("JohnLemon"))
         {
-            IsPlayerAsExit = true;
+            IsPlayerAtExit = true;
         }
     }
 }

@@ -1014,7 +1014,7 @@ MonoBehaviour:
   _wonImage: {fileID: 1248484147}
   _fadeDuration: 1
   _displayImageDuration: 2
-  IsPlayerAsExit: 0
+  IsPlayerAtExit: 0
   IsPlayerCaught: 0
   _caughtClip: {fileID: 8300000, guid: 2789d5ce62baaba4ab1ee8bb172304a6, type: 3}
   _wonClip: {fileID: 8300000, guid: c0f716a9e9ac00c438b95158ba195a58, type: 3}
