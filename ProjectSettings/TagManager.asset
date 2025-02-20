@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - JohnLemon
+  - PlayerTank
+  - EnemySpawnManager
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - 
   - 
   - GlobalPostJohnLemon
-  - 
+  - GlobalPostTanks
   - 
   - 
   - 
